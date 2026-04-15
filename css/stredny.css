@@ -1,0 +1,108 @@
+body {
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 1.8rem !important;
+}
+
+h3 {
+    font-size: 1.4rem !important;
+}
+
+main {
+    padding: 20px;
+}
+
+main img {
+    width: 100% !important;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+
+.about-java {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 95%;
+}
+
+.obrazok-java {
+    display: flex;
+    flex: 1;
+    min-width: 250px;
+    justify-content: center;
+}
+
+.obrazok-java img {
+    min-width: 250px;
+    display: block;
+}
+
+.about-java p {
+    flex: 2;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    font-size: 17px;
+    margin: 0;
+    padding: 10px 15px;
+    text-decoration: underline;
+}
+
+.introduction {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.introduction h2 {
+    margin-left: 0;
+    text-align: left;
+}
+
+.introduction ul {
+    margin-left: 2rem;
+}
+
+.simple-table {
+    display: table;
+    width: 100%;
+    overflow-x: auto;
+}
+
+
+.links, .lesson {
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+.navigation-buttons {
+    text-align: right;
+    padding-right: 5%;
+}
+
+.btn-next {
+    display: inline-block;
+    width: auto;
+    padding: 12px 30px;
+    min-width: 200px;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+}
