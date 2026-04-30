@@ -106,3 +106,7 @@ footer {
     text-align: center;
     padding: 1.5rem;
 }
+.navigation-buttons{
+    display: flex;
+    flex-direction: row;
+}
